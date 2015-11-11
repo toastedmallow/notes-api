@@ -19,7 +19,6 @@ interface UserGroupInterface
     public function getUserName();
     public function getAdminAccess();
     public function getOwnerAccess();
-
 }
 
 ?>
