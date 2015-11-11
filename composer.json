@@ -1,0 +1,28 @@
+{
+  "name": "Toastedmallow/notes-api",
+  "description": "Notes API Project for CS3620",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Casiano A Trujillo",
+      "email": "toastedmallow123@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "peridot-php/peridot": "1.16.0",
+    "peridot-php/leo": "1.4.0",
+    "peridot-php/peridot-prophecy-plugin": "1.1.0",
+    "fzaninotto/faker": "v1.5.0",
+    "squizlabs/php_codesniffer": "2.3.4",
+    "phpmd/phpmd": "2.3.2"
+  },
+  "require": {
+    "silex/silex": "v1.3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Notes\\": "src/"
+    }
+  }
+}
