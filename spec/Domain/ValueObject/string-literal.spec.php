@@ -11,7 +11,7 @@ describe('Notes\Domain\ValueObject\StringLiteral', function () {
             );
         });
     });
-    
+
     describe('->__construct("foo")', function () {
         it('should return a StringLiteral object with the value of "foo"', function () {
             $value = 'foo';

@@ -1,0 +1,44 @@
+<?php
+
+namespace Notes\Domain\Entity\UserGroup;
+
+/**
+ * Created by PhpStorm.
+ * User: Casey
+ * Date: 11/7/2015
+ * Time: 6:42 PM
+ */
+
+interface UserRepositoryInterface
+{
+    /**
+     * @param \Notes\Domain\Entity\UserGroup\User $user
+     * @return mixed
+     */
+    public function add(User $user);
+
+    /**
+     * @param \Notes\Domain\Entity\UserGroup\User $user
+     * @return mixed
+     */
+    public function remove(User $user);
+
+    /**
+     * @param $username
+     * @return mixed
+     */
+    public function removeByUsername($username);
+
+    /**
+     * @return mixed
+     */
+    public function getUsers();
+
+    /**
+     * @param $username
+     * @return mixed
+     */
+    public function getByUsername($username);
+
+
+}
